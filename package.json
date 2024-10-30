@@ -1,8 +1,9 @@
 {
   "name": "npx-easy-cli",
   "version": "1.1.0",
-  "description": "My first command line project, im trying this to improve my skills and make some advanced projects in the future",
+  "description": "My first command line project, I'm trying this to improve my skills and make some advanced projects in the future.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
