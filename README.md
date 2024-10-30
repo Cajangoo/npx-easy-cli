@@ -3,30 +3,40 @@ My first command line project, im trying this to improve my skills and make some
 
 _________________________________________
 
+The packages that i use:
+
+**yargs**
+
+**chalk**
+
+**conf**
+
+_________________________________________
+
 **Commands:**
 
-node main.js hello
+**node main.js hello**
 -> Olá, mundo (verde)
 
-node main.js --name Ana
+**node main.js --name Ana**
 -> Olá, Ana! (verde)
 
-node main.js sum 5 3
+**node main.js sum 5 3**
 -> Resultado: 8 (azul)
 
-node main.js sum
+**node main.js sum**
 -> Resultado: 0 (azul)
 
-node main.js config username Ana
+**node main.js config username Ana**
 -> Configuração sala: username = Ana (amarelo)
 
-node main.js config username
+**node main.js config username**
 -> Valor de username: Ana (magenta)
 
-node main.js config nonexistentKey
+**node main.js config nonexistentKey**
 -> Configuração 'nonexistetKey' não encontrada (vermelho)
 
-node main.js --help
+**node main.js --help**
 -> Uso: easycli <comando> [opções] (azul)
 Commands:
   main.js hello                 Imprime uma saudação
@@ -39,4 +49,5 @@ Options:
 
 _________________________________________
 
+Thank u for enjoy!
 
