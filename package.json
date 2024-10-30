@@ -1,0 +1,24 @@
+{
+  "name": "npx-easy-cli",
+  "version": "1.2.0",
+  "description": "My first command line project, I'm trying this to improve my skills and make some advanced projects in the future.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "cajango.dev",
+  "license": "ISC",
+  "bin": {
+    "easycli": "main.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "conf": "^13.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
